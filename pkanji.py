@@ -19,10 +19,16 @@
 
 from __future__ import print_function
 from sys import exit
+import platform
 from Tkinter import Tk
 from _version import __version__
 from helptext import HELPTEXT, LICENSETEXT, COPYRIGHTTEXT, CREDITTEXT
 from model import Model
+
+if platform.system() != 'Windows':
+    import sys
+    import codecs
+    sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 PROMPT = '$ '
 MAX_WIDTH = 70
