@@ -7,3 +7,4 @@ cp radkfile dist/pkanji
 cp pkanji-pause.bat dist/pkanji
 cp COPYING dist/pkanji
 cp README.md dist/pkanji/README.txt
+cp changes.txt dist/pkanji

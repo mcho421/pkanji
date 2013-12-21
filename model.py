@@ -18,11 +18,15 @@
 # along with pkanji.  If not, see <http://www.gnu.org/licenses/>.
 
 import codecs
+import os
 from collections import deque
 
-RADKFILE = 'radkfile'
-PRADFILE = 'pradfile'
-KRTKFILE = 'kRTKfile'
+__location__ = os.path.realpath(
+    os.path.join(os.getcwd(), os.path.dirname(__file__)))
+
+RADKFILE = os.path.join(__location__, 'radkfile')
+PRADFILE = os.path.join(__location__, 'pradfile')
+KRTKFILE = os.path.join(__location__, 'kRTKfile')
 MAX_UNDO = 10
 
 class InvalidRadical(Exception): pass
