@@ -19,6 +19,7 @@
 
 from __future__ import print_function
 from sys import exit
+import os
 import platform
 from Tkinter import Tk
 from _version import __version__
@@ -234,11 +235,16 @@ class SelectionCommand(object):
 
 def copy_to_clipboard(text):
     """Copy text to the clipboard."""
-    r = Tk()
-    r.withdraw()
-    r.clipboard_clear()
-    r.clipboard_append(text)
-    r.quit()
+    if platform.system() == 'Darwin':
+        outf = os.popen('pbcopy', 'w')
+        outf.write(text.encode('utf8'))
+        outf.close()
+    else:
+        r = Tk()
+        r.withdraw()
+        r.clipboard_clear()
+        r.clipboard_append(text)
+        r.quit()
 
 def get_command(model):
     """Get a command to execute."""
