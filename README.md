@@ -27,6 +27,8 @@ for Mac and Linux.
 - Windows users make sure your command prompt can display Japanese characters.
   One way this can be achieved is by setting your system locale to Japanese.
 
+- Linux users make sure xclip is already installed.
+
 1) Unzip pkanji.
 
 2) In the pkanji directory, run pkanji.exe.

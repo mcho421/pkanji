@@ -19,7 +19,7 @@
 
 from __future__ import print_function
 from sys import exit
-import os
+import subprocess
 import platform
 from Tkinter import Tk
 from _version import __version__
@@ -236,9 +236,9 @@ class SelectionCommand(object):
 def copy_to_clipboard(text):
     """Copy text to the clipboard."""
     if platform.system() == 'Darwin':
-        outf = os.popen('pbcopy', 'w')
-        outf.write(text.encode('utf8'))
-        outf.close()
+        subprocess.Popen(["pbcopy", "w"], stdin=subprocess.PIPE).communicate(text.encode('utf8'))
+    elif platform.system() == 'Linux':
+        subprocess.Popen(["xclip", "-selection", "clipboard"], stdin=subprocess.PIPE).communicate(text.encode('utf8'))
     else:
         r = Tk()
         r.withdraw()

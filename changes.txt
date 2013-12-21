@@ -1,5 +1,5 @@
 1.0.1
-- Fixed Mac copy to clipboard hanging.
+- Fixed Mac and Linux copy to clipboard handling.
 - Forcing encoding to be UTF-8 on Mac and Linux to temporarily fix
   encoding errors when freezing the binary.
 - Data files now load from the same directory as the running script
