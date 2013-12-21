@@ -1,0 +1,1 @@
+pkanji.exe || PAUSE

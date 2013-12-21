@@ -1,0 +1,279 @@
+#
+#                           P R A D F I L E
+# 
+# This is the data file that is used let the user select the radicals
+# used for filtering by specifying the english keyword. It associates 
+# sets of radicals to keywords (primitives).
+#
+# This file is in the EUC-JP encoding. Please open in a compatible text
+# editor.
+#
+# The format of the file is as follows:
+# 
+# (a) all lines starting with a # are comments
+# (b) all other lines identify a set of radicals representing a RTK-style 
+# primitive followed by keyword aliases of the primitive. The set of
+# radicals are listed one after another without a delimiter. There is a 
+# space between the set of radicals and the keywords. The keywords are
+# space delimited.
+#
+# If adding a new primitive, use the kradfile to check which radicals the
+# primitive decomposes into.
+# 
+# The file can, and should be modified by users to suit their preferences.
+#
+°ì one
+¡Ã
+Ð¦
+¥Î
+²µ fishguts hook
+Ð­
+Æó two
+Ðµ tophat
+¿Í person
+²½ mrt
+Ð¤ umbrella
+Ñ¹ humanlegs
+Æþ enter
+¥Ï animallegs
+Öõ horns
+ÑÄ hood
+ÑÌ crown
+ÑÒ ice
+ÑÜ whirlwind
+Ñá shovel
+Åá sword
+´¢ saber
+ÎÏ power
+Ò± ladle bound boundup
+Ò¸ spoon sittingman
+Ò¹ box
+½½ needle ten 10
+ËÎ wand
+ÒÇ stamp
+ÒÌ cliff
+ÒÓ elbow
+Ëô crotch
+¥Þ chopseal
+¶å nine baseball
+¥æ key
+Çµ fist
+¹þ road
+¸ý mouth
+Óø pentin
+ÅÚ dirt ground soil
+»Î gentleman samurai
+Ôé walkinglegs
+Í¼ evening
+Âç dog big large
+½÷ woman
+»Ò child
+Õß house
+À£ measurement glue
+¾® small little
+¾° owl sparks
+Õ÷ sink
+Õù flag
+Ö¥ goat mountaingoat
+»³ mountain
+Àî stream
+Öß flood
+¹© craft
+Öá snake
+¶Ò towel
+´³ dry
+Öö mysterious
+Öø cave
+×® stretch
+×° twohands
+×µ arrow
+µÝ bow
+¥è broom
+×À mutual mutally mutallyexclusive
+×Ä shape
+×Æ going
+Ë» stateofmind
+Ù© finger fingers
+½Á water
+ÈÈ wilddog wilddogs
+çè plant flower
+Ë® citywalls
+ïô pinnacle
+Ìé scorpion
+Ë´ deceased
+µÚ rachout
+µ× mummy longtime
+Ï· oldman
+¿´ heart
+Øù fiesta
+¸Í roof
+¼ê hand
+»Ù branch
+Ú¾ taskmaster
+Ê¸ sentence
+ÅÍ bigdipper
+¶Ô axe
+Êý direction compass
+ÚÛ
+Æü day sun
+Û© sayeth
+·î moon month flesh
+ÌÚ tree wood
+·ç lack
+»ß stop
+ÝÆ bone
+ÝÕ missile
+Èæ compare
+ÌÓ fur
+»á familyname
+Ýã spirits
+¿å water2
+²Ð fire
+Û¿ fire2
+ÄÞ claw
+Éã father
+à«
+à­ turtle
+ÊÒ onesided
+µí cow
+¸¤ chihuahua smalldog
+Îé altar
+²¦ king jewel
+¸µ beginning
+°æ well
+ÌÞ not
+Ìà understandably
+¸Þ five
+ÆÖ worm barracks
+ÇÃ rubix rubixcube mosaic
+ÝÙ every
+¸¼ gandalf
+´¤ tile
+´Å sweet
+À¸ life
+ÍÑ utilize
+ÅÄ field ricefield
+É¥ mend
+áË sickness caveman
+â¢ teepee tipi tepee
+Çò white
+Èé pelt
+»® dish
+ÌÜ eye
+Ì· halberd
+Ìð drop
+ÀÐ stone
+¼¨ show
+ã» jiminycricket cricket
+²Ó wheat
+·ê hole
+Î© stand
+½é cloak
+À¤ generation
+µð gigantic
+ºý tome
+Êì mama
+Çã wideeye
+²ç tusk
+±» melon
+ÃÝ bamboo
+ÊÆ rice american usa
+»å thread spiderman
+´Ì tincan
+ÍÓ sheep
+±© feathers
+¼© comb
+æÐ christmastree xmastree
+¼ª ear
+ææ brush
+Æù meat
+¼« oneself
+»ê climax
+±± mortar
+Àå tongue
+½® boat
+º± silver
+¿§ color colour
+éÈ tiger
+Ãî insect
+·ì blood
+¹Ô boulevard
+°á clothes garment
+À¾ west
+¿Ã slave retainer
+¸« see
+³Ñ angle
+¸À say
+Ã« valley
+Æ¦ table
+ìµ sow
+ì¸ skunk
+³­ money shellfish
+ÀÖ red
+Áö run
+Â­ leg
+¿È somebody
+¼Ö car
+¿É spicy
+Ã¤ signofthedragon brucelee
+ÆÓ signofthebird whiskey whisky alcohol sake
+ÈÐ grab
+Î¤ computer ri
+Á¤ sunglasses
+Çþ barley
+¶â gold metal
+Ä¹ long
+Ìç gate
+ð° sieve
+ð² turkey
+±« rain
+ÀÄ blue
+Èó un
+±â encompassing
+²¬ mount
+ÌÈ rabbit excuse
+ÀÆ adjust
+ÌÌ mask
+³× leather
+ðì greenonion onion
+²» sound
+ÊÇ head page
+É÷ wind
+Èô fly
+¿© eat
+¼ó neck
+¹á incense
+ÉÊ supplies
+ÇÏ horse
+¹ü skeleton
+¹â tall
+ñõ hair
+ò¨
+ò® fragrantherb
+ò¯ dissolve oldcamera camera
+µ´ ghost oni monster
+Îµ dragon
+ðê locket
+µû fish
+Ä» bird
+óÃ rocksalt
+¼¯ deer
+Ëã hemp
+µµ tortoise
+Å© antique antiques
+²« yellow
+¹õ black
+µÐ millet
+óã
+Ìµ nothingness
+»õ tooth teeth
+óæ snappingturtle
+Å¤ tripod threeleggedkettle
+¸Ý drum
+ÁÍ mouse
+É¡ nose
+óî
+óþ
+# Compound primitives:
+¥Î¸ýÑÄ angel
+´Å¥Ï chess chessplayer rook
