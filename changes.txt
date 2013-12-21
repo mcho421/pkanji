@@ -1,0 +1,5 @@
+1.0.1
+- Data files now load from the same directory as the running script
+  rather than the current working directory.
+- Added a line in "help" to direct user to see "pradfile" if he/she
+  doesn't know the possible primitives.

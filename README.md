@@ -41,6 +41,7 @@ How to use
 ----------
 Typical usage would involve:
 1) Type the name of the primitives contained in the kanji one per line.
+   See the "pradfile" file for all the inputtable primitives.
 2) Press enter on a blank line to search. This should give an indexed 
    list of kanji that contain those primitives.
 3) Type the number corresponding to the kanji to copy to clipboard.
