@@ -61,7 +61,7 @@ https://github.com/mcho421/pkanji
 Contact
 -------
 Mathew Chong
-mathewchong7@gmail.com
+mathewchong.dev@gmail.com
 
 Credits
 -------
